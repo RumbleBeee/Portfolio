@@ -10,9 +10,10 @@ The given dataset was a modified version of [this dataset](https://www.kaggle.co
 
 The main tasks during the thesis where defined as follows:
  - [preprocessing](/BigData/Exam/BDA_Abschlussprojekt_Preprocessing.md)
- - data visualisation
+ - [data visualisation](https://nbviewer.org/github/RumbleBeee/Portfolio/blob/master/BigData/Exam/BDA_Abschlussprojekt_EDA.ipynb)
  - documentation
  - presentation
 
-### Info - 06.06.2022
-At the moment, I uploaded only the preproccessing file cause there are some formatting problems with the presentation of the diagrams, I created during the exam. After fixing these issues, I will upload the data visualisation.
+### Info
+
+Some of the diagrams in the visualisation are interactive. This means, yhou can hover or click som of the elements to see more informations about the corresponding data.
