@@ -1074,25 +1074,18 @@ def my_memory_usage(dataframe):
     
     mem = dataframe.memory_usage(deep=True)
     n = round(mem.sum() / MiB, 1)
-    print('genutzer Speicherplatz [MiB]:')
+    print('genutzer Speicherplatz: {memory} MiB'.format(memory=n))
     return n
 ```
 
 
 ```python
 mem_usage_init = my_memory_usage(df)
-mem_usage_init
+mem_usage_init;
 ```
 
-    genutzer Speicherplatz [MiB]:
+    genutzer Speicherplatz: 429.9 MiB
     
-
-
-
-
-    429.9
-
-
 
 
 ```python
@@ -3690,18 +3683,11 @@ Eine erste Prüfung des Datensatzes zeigt, das wir die Spalten **borrower_gender
 
 ```python
 mem_opti_pre = my_memory_usage(df_final)
-mem_opti_pre # verwendeter Speicherplatz nach Bearbeitung des Datensatzes
+mem_opti_pre; # verwendeter Speicherplatz nach Bearbeitung des Datensatzes
 ```
 
-    genutzer Speicherplatz [MiB]:
+    genutzer Speicherplatz: 445.1 MiB
     
-
-
-
-
-    445.1
-
-
 
 
 ```python
@@ -3907,18 +3893,11 @@ for col in cols_to_check:
 
 ```python
 mem_opti_cat = my_memory_usage(df_final)
-mem_opti_cat # verwendeter Speicherplatz nach Kategorisierung
+mem_opti_cat; # verwendeter Speicherplatz nach Kategorisierung
 ```
 
-    genutzer Speicherplatz [MiB]:
+    genutzer Speicherplatz: 244.4 MiB
     
-
-
-
-
-    244.4
-
-
 
 
 ```python
@@ -4143,18 +4122,11 @@ for col in convert_to_int:
 
 ```python
 mem_opti_float2int = my_memory_usage(df_final)
-mem_opti_float2int # verwendeter Speicherplatz nach Umwandlung von Fließkommazahlemn in Ganzzahlen
+mem_opti_float2int; # verwendeter Speicherplatz nach Umwandlung von Fließkommazahlemn in Ganzzahlen
 ```
 
-    genutzer Speicherplatz [MiB]:
+    genutzer Speicherplatz: 234.3 MiB
     
-
-
-
-
-    234.3
-
-
 
 
 ```python
@@ -4390,18 +4362,11 @@ df_final.dtypes
 
 ```python
 mem_opti_int = my_memory_usage(df_final)
-mem_opti_int # verwendeter Speicherplatz nach Optimierung der Ganzzahlspalten
+mem_opti_int; # verwendeter Speicherplatz nach Optimierung der Ganzzahlspalten
 ```
 
-    genutzer Speicherplatz [MiB]:
+    genutzer Speicherplatz: 213.4 MiB
     
-
-
-
-
-    213.4
-
-
 
 
 ```python
