@@ -16,4 +16,4 @@ The main tasks during the thesis where defined as follows:
 
 ### Info
 
-Some of the diagrams in the visualisation are interactive. This means, you can hover or click som of the elements to see more informations about the corresponding data.
+Some of the diagrams in the visualisation are interactive. This means, you can hover or click some of the elements to see more informations about the corresponding data.
